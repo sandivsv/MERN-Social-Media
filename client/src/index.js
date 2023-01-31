@@ -20,6 +20,9 @@ import { PersistGate } from "redux-persist/integration/react";
 
 
 
+const domain = process.env.PORT;
+
+console.log("My domain name is : ", domain )
 
 const persistConfig = { key: "root", storage, version: 1 };
 const persistedReducer = persistReducer(persistConfig, authReducer);

@@ -7,6 +7,7 @@ import FriendListWidget from "../widgets/FriendListWidget";
 import MyPostWidget from "../widgets/MyPostWidget";
 import PostsWidget from "../widgets/PostsWidget";
 import UserWidget from "../widgets/UserWidget";
+import { ENDPOINT } from "../../state/Endpoint";
 
 
 
@@ -17,7 +18,7 @@ const ProfilePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   const getUser = async () => {
-    const response = await fetch(`http://localhost:3001/users/${userId}`, {
+    const response = await fetch(`${ENDPOINT}users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
