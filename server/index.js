@@ -38,6 +38,12 @@ app.use(cors());
 app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 
+
+/* SERVER WORKING MESSAGE */
+app.get("/",(req,res)=>{
+    res.send("Yupp!!! ITS WORKING");
+})
+
 /* FILE STORAGE */
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
