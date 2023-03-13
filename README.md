@@ -8,6 +8,8 @@
 ### `Sign In Page`
 ![Sign In Page](SC/sign-in.png)
 
+![light](SC/homepage-light.png "HomePage in Light Mode") ![dark](SC/homepage-dark.png "HomePage in Light Mode")
+
 ### `HomePage in Light Mode`
 ![HomePage in Light Mode](SC/homepage-light.png)
 
