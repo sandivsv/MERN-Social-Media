@@ -8,9 +8,9 @@
 ### `Sign In Page`
 ![Sign In Page](SC/sign-in.png)
 
-| col 1      | col 2      |
+| Light Mode      | Dark Mode     |
 |------------|-------------|
-| <img src="./SC/homepage-light.png" width="250"> | <img src="./SC/homepage-dark.png" width="250"> |
+| <img src="./SC/homepage-light.png" width="550"> | <img src="./SC/homepage-dark.png" width="550"> |
 
 
 ### `HomePage in Light Mode`
